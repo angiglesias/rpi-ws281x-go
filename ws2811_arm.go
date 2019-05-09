@@ -21,8 +21,7 @@
 
 package ws2811
 
-// #cgo CFLAGS: -std=c99
-// #cgo LDFLAGS: -lws2811
+// #cgo pkg-config: libws2811
 // #include <stdint.h>
 // #include <stdlib.h>
 // #include <string.h>

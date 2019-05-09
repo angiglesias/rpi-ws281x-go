@@ -17,7 +17,7 @@ package main
 import (
 	"time"
 
-	ws2811 "github.com/rpi-ws281x/rpi-ws281x-go"
+	ws2811 "github.com/angiglesias/rpi-ws281x-go"
 )
 
 const (

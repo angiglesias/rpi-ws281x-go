@@ -1,2 +1,4 @@
 github.com/pkg/errors v0.8.0 h1:WdK/asTD0HN+q6hsWO3/vpuAkAr+tw6aNJNDFFf0+qw=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/rpi-ws281x/rpi-ws281x-go v1.0.3 h1:mp3eVMYTuaH1cTmnzo5nKSCrQfYTx7pkG7Jxxdl+aZc=
+github.com/rpi-ws281x/rpi-ws281x-go v1.0.3/go.mod h1:NJ9ZCa/NPRHHb841qr+G9IEJe1J4aOgBMwkf9xyDnmk=
