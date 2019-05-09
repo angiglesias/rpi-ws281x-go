@@ -22,8 +22,8 @@ package ws2811
 import "github.com/pkg/errors"
 
 const (
-	// DefaultDmaNum is the default DMA number. Usually, this is 5 ob the Raspberry Pi
-	DefaultDmaNum = 5
+	// DefaultDmaNum is the default DMA number.
+	DefaultDmaNum = 10
 	// RpiPwmChannels is the number of PWM leds in the Raspberry Pi
 	RpiPwmChannels = 2
 	// TargetFreq is the target frequency. It is usually 800kHz (800000), and an go as low as 400000
@@ -50,6 +50,7 @@ const (
 )
 
 // StateDesc is a map from a return state to its string description.
+//nolint: gochecknoglobals
 var StateDesc = map[int]string{
 	0:   "Success",
 	-1:  "Generic failure",
@@ -114,6 +115,7 @@ type Option struct {
 }
 
 // DefaultOptions defines sensible default options for MakeWS2811
+//nolint: gochecknoglobals
 var DefaultOptions = Option{
 	Frequency: TargetFreq,
 	DmaNum:    DefaultDmaNum,
